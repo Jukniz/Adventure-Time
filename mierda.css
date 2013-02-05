@@ -1,5 +1,7 @@
 
-
+body {
+background: url(./Resources/JumpingFinn_CN_takeover_es.jpg) no-repeat scroll center top ;
+}
 #Fondo{
     background-image: url(./Resources/fondocasa.jpg);
     width: 800px;
@@ -20,11 +22,11 @@
   top: 85%;
   margin-top: -82px;
 
- transition-property:  right;
+ transition-property:  left;
   transition-duration: 5s;
-  -webkit-transition-property: right;
+  -webkit-transition-property: left;
   -webkit-transition-duration: 5s;
-  -o-transition-property:  right;
+  -o-transition-property:  left;
   -o-transition-duration: 5s;
     
  
