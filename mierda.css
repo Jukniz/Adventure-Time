@@ -1,0 +1,50 @@
+
+
+#Fondo{
+    background-image: url(./Resources/fondocasa.jpg);
+    width: 800px;
+    height: 600px;
+    position:absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -400px;
+  margin-top: -300px;
+  
+}
+.izq{
+    background-image: url(./Resources/finnandjake.png);
+    width: 120px;
+    height: 164px;
+   position:absolute;
+  left: 0%;
+  top: 85%;
+  margin-top: -82px;
+
+ transition-property:  left;
+  transition-duration: 5s;
+  -webkit-transition-property: left;
+  -webkit-transition-duration: 5s;
+  -o-transition-property:  left;
+  -o-transition-duration: 5s;
+    
+ 
+}
+
+.der{
+    background-image: url(./Resources/finnandjake.png);
+    width: 120px;
+    height: 164px;
+   position:absolute;
+  left: 85%;
+  top: 85%;
+  margin-top: -82px;
+
+  transition-property: left;
+  transition-duration: 5s;
+  -webkit-transition-property: left;
+  -webkit-transition-duration: 5s;
+  -o-transition-property: left;
+  -o-transition-duration: 5s;
+
+ 
+}
