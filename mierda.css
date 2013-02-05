@@ -20,11 +20,11 @@
   top: 85%;
   margin-top: -82px;
 
- transition-property:  left;
+ transition-property:  right;
   transition-duration: 5s;
-  -webkit-transition-property: left;
+  -webkit-transition-property: right;
   -webkit-transition-duration: 5s;
-  -o-transition-property:  left;
+  -o-transition-property:  right;
   -o-transition-duration: 5s;
     
  
