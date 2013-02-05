@@ -3,7 +3,16 @@
         <link href="mierda.css" rel="stylesheet" type="text/css" media="screen" />
          <script src="mierda.js" type="text/javascript"></script>
     </head>
-    <body onload="runDemo()">
+    <body onLoad="runDemo()">
+	<audio id="player" src="./Resources/opening.mp3" autoplay loop>
+</audio>
+<div class="sonido">
+    <button onclick="document.getElementById('player').play();">Reproducir</button>
+    <button onclick="document.getElementById('player').pause();">Pausa</button>
+    <button onclick="document.getElementById('player').volume += 0.1;">Subir Volumen</button>
+    <button onclick="document.getElementById('player').volume -= 0.1;">Bajar Volumen</button>
+</div>
+
         <div id="Fondo" >
             <div class="izq">
             
