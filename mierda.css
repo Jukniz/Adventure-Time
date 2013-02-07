@@ -28,10 +28,10 @@ width:150px;
 
  transition-property:  left;
   transition-duration: 10s;
-  -webkit-transition: left 10s;
+  -webkit-transition-property: left;
+  -webkit-transition-duration: 10s;
   -o-transition-property:  left;
   -o-transition-duration: 10s;
-    
  
 }
 
@@ -44,10 +44,11 @@ width:150px;
   top: 85%;
 
 
-  transition-property: left;
+ transition-property:  left;
   transition-duration: 10s;
-  -webkit-transition: left 10s;
-  -o-transition-property: left;
+  -webkit-transition-property: left;
+  -webkit-transition-duration: 10s;
+  -o-transition-property:  left;
   -o-transition-duration: 10s;
 
  
