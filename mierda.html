@@ -1,16 +1,17 @@
+<!DOCTYPE html>
 <html>
     <head>
         <link href="mierda.css" rel="stylesheet" type="text/css" media="screen" />
          <script src="mierda.js" type="text/javascript"></script>
     </head>
     <body onLoad="runDemo()">
-	<audio id="player" src="./Resources/opening.mp3" autoplay loop>
+	<audio id="player" src="./Resources/opening.wav" autoplay loop>
 </audio>
 <div class="sonido">
-    <button onclick="document.getElementById('player').play();">Reproducir</button>
-    <button onclick="document.getElementById('player').pause();">Pausa</button>
-    <button onclick="document.getElementById('player').volume += 0.1;">Subir Volumen</button>
-    <button onclick="document.getElementById('player').volume -= 0.1;">Bajar Volumen</button>
+    <button onClick="document.getElementById('player').play();">Reproducir</button>
+    <button onClick="document.getElementById('player').pause();">Pausa</button>
+    <button onClick="document.getElementById('player').volume += 1;">Subir Volumen</button>
+    <button onClick="document.getElemtenById('player').volume -= 1;">Bajar Volumen</button>
 </div>
 
         <div id="Fondo" >

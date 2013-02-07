@@ -18,39 +18,37 @@ background-color:#c6eae0;
 width:150px;
 }
 .izq{
-    background-image: url(./Resources/finnandjake.png);
-    width: 120px;
-    height: 164px;
+    background-image: url(./Resources/beemo.gif);
+    width: 67px;
+    height: 73px;
    position:absolute;
   left: 0%;
   top: 85%;
-  margin-top: -82px;
 
- transition-property:  left;
-  transition-duration: 5s;
-  -webkit-transition-property: left;
-  -webkit-transition-duration: 5s;
-  -o-transition-property:  left;
-  -o-transition-duration: 5s;
+
+ transition-property:  right;
+  transition-duration: 10s;
+  -webkit-transition: right 10s;
+  -o-transition-property:  right;
+  -o-transition-duration: 10s;
     
  
 }
 
 .der{
-    background-image: url(./Resources/finnandjake.png);
-    width: 120px;
-    height: 164px;
+    background-image: url(./Resources/beemo.gif);
+    width: 67px;
+    height: 73px;
    position:absolute;
-  left: 85%;
+  left: 90%;
   top: 85%;
-  margin-top: -82px;
+
 
   transition-property: left;
-  transition-duration: 5s;
-  -webkit-transition-property: left;
-  -webkit-transition-duration: 5s;
+  transition-duration: 10s;
+  -webkit-transition: left 10s;
   -o-transition-property: left;
-  -o-transition-duration: 5s;
+  -o-transition-duration: 10s;
 
  
 }
