@@ -26,10 +26,10 @@ width:150px;
   top: 85%;
 
 
- transition-property:  right;
+ transition-property:  left;
   transition-duration: 10s;
-  -webkit-transition: right 10s;
-  -o-transition-property:  right;
+  -webkit-transition: left 10s;
+  -o-transition-property:  left;
   -o-transition-duration: 10s;
     
  
